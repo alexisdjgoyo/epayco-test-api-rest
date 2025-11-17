@@ -7,7 +7,7 @@ import { SoapData } from '../common/interfaces/soap-data.interface';
 @Injectable()
 export class SoapService {
   private readonly logger = new Logger(SoapService.name);
-  private readonly soapUrl = 'http://localhost:80/api/soap';
+  private readonly soapUrl = 'http://webserver:80/api/soap';
 
   constructor(private readonly httpService: HttpService) {}
 
@@ -97,6 +97,7 @@ export class SoapService {
 
       return response.data as SoapResponseDto;
     } catch (error: any) {
+      console.log(error);
       // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
       this.logger.error(`SOAP call failed for ${operation}: ${error.message}`);
 
