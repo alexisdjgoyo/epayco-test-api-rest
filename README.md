@@ -53,6 +53,10 @@ Puedes acceder a la documentación interactiva de la API (Swagger) en la siguien
 
 **http://localhost:3000/api**
 
+### 5. Colección de Postman
+
+Dentro de la carpeta `docs` del repositorio, encontrarás una colección de Postman (`epayco-rest-postman-collection.json`) que puedes importar para probar los diferentes endpoints de la API de forma sencilla.
+
 ---
 
 ### ⚠️ ¡Advertencia Importante!
