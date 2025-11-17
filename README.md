@@ -15,7 +15,15 @@ Asegúrate de tener instaladas las siguientes herramientas en tu sistema:
 
 Sigue estos pasos para clonar y ejecutar el proyecto en tu entorno local.
 
-### 1. Clonar el Repositorio
+### 1. Puesta en Marcha del Servicio SOAP (¡Importante!)
+
+Antes de continuar, es **indispensable** que pongas en marcha el servicio SOAP del cual depende esta API REST. Para ello, clona y sigue las instrucciones del siguiente repositorio:
+
+```bash
+git clone https://github.com/alexisdjgoyo/epayco-test-api-soap.git
+```
+
+### 2. Clonar este Repositorio
 
 Abre tu terminal y ejecuta el siguiente comando para clonar el repositorio en tu máquina local:
 
